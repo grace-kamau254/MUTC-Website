@@ -1,0 +1,112 @@
+ /* TracksPage.css */
+
+.tracks-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  /* Container for the track cards */
+  .track-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .track-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .track-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card header with track title */
+  .track-card-header {
+    padding: 20px;
+    background-color: #ff6f61; /* Exciting color for the header */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Card body with track description */
+  .track-card-body {
+    padding: 20px;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  .track-card-footer {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+  }
+  
+  .track-card-footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .track-card-footer a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Different colors for each track card */
+  .track-card.cyber-security {
+    background-color: #1e2a47; /* Dark blue for Cyber Security */
+    color: #fff;
+  }
+  
+  .track-card.ui-ux {
+    background-color: #4e9f3d; /* Green for UI/UX Design */
+    color: #fff;
+  }
+  
+  .track-card.web-development {
+    background-color: #ffb400; /* Orange for Web Development */
+    color: #fff;
+  }
+  
+  .track-card.mobile-apps {
+    background-color: #5c6bc0; /* Blue for Mobile Apps */
+    color: #fff;
+  }
+  
+  .track-card.cloud-engineering {
+    background-color: #009688; /* Teal for Cloud Engineering */
+    color: #fff;
+  }
+  
+  .track-card.power-platform {
+    background-color: #f44336; /* Red for Power Platform */
+    color: #fff;
+  }
+  

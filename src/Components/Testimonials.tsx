@@ -9,7 +9,10 @@ import LindaImg from '../assets/Linda.png'
 
 function Testimonials() {
   return (
-    <div className='testimonials-container'>
+    <div>
+      <h1 className="title">What Our Beneficiaries Says</h1>
+       <div className='testimonials-container'>
+      
       <div className='testimonials'>
         <img src={MaryImg} alt="Mary" className='img' />
         <h6 className='text'>Mary Wambui, Software Engineering Major, Class of 2024</h6>
@@ -47,8 +50,9 @@ function Testimonials() {
         <p className='text'>MUTC has provided a platform to apply classroom knowledge to real-world scenarios. The exposure to various tech disciplines has broadened my horizons and prepared me for a dynamic career in technology.</p>
       </div>
       
-
-    </div>
+</div>
+      </div>
+  
   )
 }
 

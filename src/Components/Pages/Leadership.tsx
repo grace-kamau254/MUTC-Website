@@ -16,7 +16,7 @@ import './Leadership.css'
 function Leadership() {
   return (
     <div>
-        <h1>Our Leadership Team</h1>
+        <h1 className="title">Our Leadership Team</h1>
         <div className="leadership-container">
              
              <div className="leadership">
