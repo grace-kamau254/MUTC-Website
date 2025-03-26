@@ -1,4 +1,4 @@
-import React from 'react'
+
 import aboutImg from '../assets/about.png'
 import './about.css'
 function about() {
