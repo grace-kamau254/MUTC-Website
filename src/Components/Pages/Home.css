@@ -1,0 +1,10 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f2f2f286;
+    color: black;
+    background-position: url(https://media.istockphoto.com/id/1079587192/photo/mid-adult-professor-teaching-a-lecture-from-desktop-pc-at-computer-lab.jpg?s=1024x1024&w=is&k=20&c=GNRf3yz6P5YPzl8kF1qDd6o1y4kHezc39Z5hKekWpPk=);
+}

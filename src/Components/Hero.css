@@ -1,0 +1,13 @@
+.hero{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(https://media.istockphoto.com/id/1079587192/photo/mid-adult-professor-teaching-a-lecture-from-desktop-pc-at-computer-lab.jpg?s=1024x1024&w=is&k=20&c=GNRf3yz6P5YPzl8kF1qDd6o1y4kHezc39Z5hKekWpPk=);
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    background-color: black;
+}
+.text{
+    color:white;
+}

@@ -1,0 +1,38 @@
+.testimonials-container{
+    background-color: rgba(113, 110, 110, 0.219);
+    margin-top: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 2rem;
+
+}
+
+.testimonials{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-width: 50rem;
+    padding: 2rem;
+    background-color:white;
+    border-radius:1rem;
+}
+ .img{
+    width: 100%;    
+    max-height: 40rem;
+    object-fit: cover;
+
+}
+.text{
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.testimonials-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+
