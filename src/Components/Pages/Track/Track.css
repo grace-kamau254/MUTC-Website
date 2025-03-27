@@ -1,4 +1,4 @@
- /* TracksPage.css */
+ 
 
 .tracks-container {
     padding: 40px;
@@ -18,7 +18,7 @@
     color: #666;
   }
   
-  /* Container for the track cards */
+  
   .track-cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
@@ -39,7 +39,7 @@
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
   }
   
-  /* Card header with track title */
+
   .track-card-header {
     padding: 20px;
     background-color: #ff6f61; /* Exciting color for the header */
@@ -49,7 +49,7 @@
     font-size: 1.5rem;
   }
   
-  /* Card body with track description */
+  
   .track-card-body {
     padding: 20px;
     color: #333;
@@ -79,34 +79,34 @@
     background-color: #0056b3;
   }
   
-  /* Different colors for each track card */
+  
   .track-card.cyber-security {
-    background-color: #1e2a47; /* Dark blue for Cyber Security */
+    background-color: #1e2a47; 
     color: #fff;
   }
   
   .track-card.ui-ux {
-    background-color: #4e9f3d; /* Green for UI/UX Design */
+    background-color: #4e9f3d; 
     color: #fff;
   }
   
   .track-card.web-development {
-    background-color: #ffb400; /* Orange for Web Development */
+    background-color: #ffb400; 
     color: #fff;
   }
   
   .track-card.mobile-apps {
-    background-color: #5c6bc0; /* Blue for Mobile Apps */
+    background-color: #5c6bc0; 
     color: #fff;
   }
   
   .track-card.cloud-engineering {
-    background-color: #009688; /* Teal for Cloud Engineering */
+    background-color: #009688;
     color: #fff;
   }
   
   .track-card.power-platform {
-    background-color: #f44336; /* Red for Power Platform */
+    background-color: #f44336;
     color: #fff;
   }
   
